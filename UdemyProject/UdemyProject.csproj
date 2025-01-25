@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RazorVersion\RazorVersion.csproj" />
     <ProjectReference Include="..\Udemy.DataAccess\Udemy.DataAccess.csproj" />
   </ItemGroup>
 
