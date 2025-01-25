@@ -1,9 +1,11 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using UdemyProject.Models;
+using Udemy.Models;
+using Udemy.DataAccess.Data;
 
-namespace UdemyProject.Controllers
+namespace UdemyProject.Areas.CustomerArea.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
