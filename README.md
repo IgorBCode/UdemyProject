@@ -15,7 +15,7 @@ Requirements for the software and other tools to build
 
 Do this before you run the project otherwise nothing will work.
 1. In UdemyProject/appsettings.json, where you see "Server=****", replace **** with your server name. You can find this when you open up microsoft sql server manager and connect window pops up, you will see "Server name"
-2. In VS go to the menu item Tool/NuGet Package Manager/Package Manger Console. Run the following commands in the package manager console:
+2. (Try to run the app at this point, it may automatically create all the database stuff. If not, continue following these steps)In VS go to the menu item Tool/NuGet Package Manager/Package Manger Console. Run the following commands in the package manager console:
    1. add-migration AddCategoryTableAndSeedData
    2. update-database
    3. add-migration AddProductTableAndSeedData
